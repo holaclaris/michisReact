@@ -5,9 +5,9 @@ function Card({imageSrc, alt, title, description, prize}){
             <div className="contenedorImagen"><img className="imagen" src={imageSrc} alt={alt}/>
             </div>
             <div className="descripcion">
-                <h3>{title}</h3>
+                <div className="nombrePrecio"><h3>{title}</h3><h4>{prize} </h4></div>
                 <p>{description}</p>
-                <h4>Precio: {prize} </h4>
+               
             </div>
         </div>
 

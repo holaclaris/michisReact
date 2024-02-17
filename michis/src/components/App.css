@@ -93,10 +93,29 @@ nav{
     filter:drop-shadow(0px 2px 4px black);
 }
 
-div .barras{
+
+nav button {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    width: 50px;
+    border-style: hidden;
+    background-color: #f9f0f0;
+    border-radius: 4px;
+    }
+
+
+
+.barras{
     font-size: 2rem;
     color: #4c5151;
-    padding: 10px;
+}
+
+.barras :hover{
+    font-weight:bolder;
+    color:#362f27;
+    transform:scale(1.1);
 }
 
 .lista{
@@ -196,20 +215,33 @@ main{
 .descripcion {
     font-family: 'Rethink Sans', sans-serif;
 }
-.descripcion h3{
+
+.nombrePrecio {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+.nombrePrecio h3{
     text-align: center;
     padding:10px;
 }
+
+.nombrePrecio h4 {
+    text-align: end;
+    font-size: 15px;
+    color: #726e6e;
+}
+
+
 .descripcion p{
     text-align: justify;
     font-size: 13px;
     padding-bottom: 12px;
 }
-.descripcion h4{
-    text-align: end;
-    font-size:15px;
-}
- 
+
 footer{
     position:fixed;
     display:flex;
@@ -267,6 +299,7 @@ footer{
 }
 
 .copyright{
+    margin-right: 5px;
     font-size: 12px;
     font-family: 'Rethink Sans', sans-serif;
     color: rgb(3, 3, 3);

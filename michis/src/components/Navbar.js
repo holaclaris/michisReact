@@ -5,9 +5,9 @@ import { SlMagnifier } from "react-icons/sl";
 function Navbar(){
     return(
         <nav>
-            <div className='barras'>
+            <button className='barras'>
               <FaBars />
-            </div>
+            </button>
             <ul className="lista">
                 <li>Inicio</li>
                 <li>Productos</li>

@@ -19,7 +19,7 @@ function Footer() {
             </div>
             <p className="copyright">
                 <FaRegCopyright />
-                2023 Claris
+                 2024 Claris
             </p>
         </footer>
     )
