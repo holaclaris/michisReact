@@ -83,6 +83,7 @@ nav{
     align-items: center;
     line-height:1.8;
     height:50%;
+    width: 25%;
     position: fixed;
     top:80px;
     z-index: 1;
@@ -239,6 +240,8 @@ main{
 .descripcion p{
     text-align: justify;
     font-size: 13px;
+    margin-left: 5px;
+    margin-right: 5px;
     padding-bottom: 12px;
 }
 
@@ -261,45 +264,59 @@ footer{
 
 .contenedorSeguinosRedes{
     display:flex;
-    flex-direction: column;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
 }
 
 .contenedorSeguinosRedes p{
-    margin: 0px 15px 0px 10px;
+    margin: 10px 15px 0px 10px;
     font-family: 'Rethink Sans', sans-serif;
     font-size:14px;
     color: rgb(19, 18, 18);
 }
 
 .redesSociales{
-    margin-top: 5px; 
-    margin-bottom:5px;
+    margin-top: 10px; 
     word-spacing: 5px;
 }
 
 
-.fa-facebook{
+.facebook{
     color:rgb(21, 23, 121);
     text-shadow: 1px 1px 1px white;
 }
 
-.fa-twitter{
-    color:rgb(32, 125, 239);
+.twitter{
+    color:rgb(0, 0, 0);
     text-shadow: 1px 1px 1px white;
 }
 
-.fa-instagram{
+.instagram{
     color:rgb(171, 33, 120);
     text-shadow: 1px 1px 1px white;
 }
 
-.fa-linkedin{
+.linkedin{
     color:rgb(9, 79, 241);
     text-shadow: 1px 1px 1px white;
 }
 
-.copyright{
-    margin-right: 5px;
+.facebook:hover{
+    font-size: 110%;
+}
+
+.twitter:hover{
+    font-size: 110%;
+}
+.instagram:hover{
+    font-size: 110%;
+}
+.linkedin:hover{
+    font-size: 110%;
+}
+
+.copyright {
     font-size: 12px;
     font-family: 'Rethink Sans', sans-serif;
     color: rgb(3, 3, 3);
@@ -309,9 +326,7 @@ a{
     text-decoration: none;
     font-size: 25px;
 }
-a:hover{
-    transform:scale(1.3);
-}
+
 
 @media(max-width:300px){
     body{
@@ -336,6 +351,10 @@ a:hover{
     width:46.8%;
     margin-right: 15px;
 }
+}
+
+.contenedorSeguinosRedes{
+    flex-direction: column;
 }
 
 @media (min-width:500px){

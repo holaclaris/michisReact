@@ -10,10 +10,10 @@ function Footer() {
             <div className="contenedorSeguinosRedes">
                 <p>Seguinos en redes sociales!</p>
                 <div className="redesSociales">
-                    <div><a href="https://www.facebook.com"> <FaFacebook /> </a>
-                        <a href="https://www.twitter.com"> <FaXTwitter /> </a>
-                        <a href="https://www.instagram.com" > <FaInstagram /></a>
-                        <a href="https://www.linkedin.com" > <FaLinkedinIn /> </a>
+                    <div><a href="https://www.facebook.com"> <FaFacebook className="facebook"/> </a>
+                        <a href="https://www.twitter.com"> <FaXTwitter className="twitter"/> </a>
+                        <a href="https://www.instagram.com" > <FaInstagram className="instagram"/></a>
+                        <a href="https://www.linkedin.com" > <FaLinkedinIn className="linkedin"/> </a>
                     </div>
                 </div>
             </div>
