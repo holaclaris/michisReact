@@ -260,6 +260,13 @@ main{
     border: 1px solid black;
 }
 
+.botonComprar:hover {
+    background-color: #bfbbbf;
+    transform: scale(1.1);
+    font-weight: 600;
+}
+
+
 footer{
     position:fixed;
     display:flex;

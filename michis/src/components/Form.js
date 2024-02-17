@@ -2,7 +2,7 @@ function Form(){
   return(
     <section>
     <form id="formulario">
-        <h2>Contactanos</h2>
+        <h2>CONTACTANOS</h2>
 
         <input className="campos" type="text" name="nombre" placeholder="Nombre" />
 
