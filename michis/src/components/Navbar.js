@@ -11,11 +11,11 @@ function Navbar(){
             </button>
             <ul className="lista">
                 <li>
-                    <Link to='/' className='links'> Inicio </Link>
+                    <Link to='/' className='links'> INICIO </Link>
                 </li>
              
                 <li>
-                    <Link to='/Contact' className='links'> Contacto </Link>
+                    <Link to='/Contact' className='links'> CONTACTO </Link>
                 </li>
             </ul>
 

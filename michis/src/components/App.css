@@ -129,8 +129,8 @@ nav button {
     display:inline;
     color:#403d40;
     text-decoration:none;
-    font-size: 18px;
-    font-weight: 500;
+    font-size: 15px;
+    font-weight: 600;
     padding:5px;
 }
 
@@ -185,7 +185,7 @@ main{
    height:70%;
    width:55%; 
    background-color: white;
-   border-radius: 8px;
+   border-radius: 5px;
    filter:drop-shadow(0px 0px 5px black);
    padding:10px;
    margin:10px;
@@ -206,16 +206,18 @@ main{
 }
 
 .contenedorImagen img{
+    border-radius: 5px;
     height:100%;
     width: 100%;
 }
 
-.card.descripcion{
+.descripcion{
     height:40%;
     width:100%;
-    
-}
-.descripcion {
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     font-family: 'Rethink Sans', sans-serif;
 }
 
@@ -223,19 +225,20 @@ main{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-top: 15px;
-    margin-bottom: 10px;
+    width:100%;
+    margin-top:15px;
 }
 
 .nombrePrecio h3{
     text-align: center;
     padding:10px;
+    font-size: 15px;
 }
 
 .nombrePrecio h4 {
     text-align: end;
     font-size: 15px;
-    color: #726e6e;
+    color: #424141;
 }
 
 
@@ -245,6 +248,16 @@ main{
     margin-left: 5px;
     margin-right: 5px;
     padding-bottom: 12px;
+}
+
+.botonComprar {
+    border-radius: 4px;
+    font-size: 13px;
+    font-weight: 600;
+    height: 30px;
+    height: 35px;
+    width: 95px;
+    border: 1px solid black;
 }
 
 footer{
