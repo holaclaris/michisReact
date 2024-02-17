@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import { FaBars } from "react-icons/fa";
 import { SlMagnifier } from "react-icons/sl";
 
@@ -9,10 +10,13 @@ function Navbar(){
               <FaBars />
             </button>
             <ul className="lista">
-                <li>Inicio</li>
-                <li>Productos</li>
-                <li>Nosotros</li>
-                <li>Contacto</li>
+                <li>
+                    <Link to='/' className='links'> Inicio </Link>
+                </li>
+             
+                <li>
+                    <Link to='/Contact' className='links'> Contacto </Link>
+                </li>
             </ul>
 
             <div className="busqueda">

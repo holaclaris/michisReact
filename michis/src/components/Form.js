@@ -15,7 +15,7 @@ function Form(){
         </div>
         <textarea name="comentarios" rows="6" cols="30" placeholder="Comentarios"></textarea>
 
-        <input className="botonEnviar" type="submit" value="Enviar" />
+        <input className="botonEnviar" type="submit" value="Enviar" onClick={()=>alert('Formulario enviado. Muchas gracias!')}/>
 
     </form>
 

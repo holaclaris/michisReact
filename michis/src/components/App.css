@@ -123,12 +123,14 @@ nav button {
     list-style-type: none;
 }
 
-.lista li a{
+.links{
     font-family: 'Rethink Sans', sans-serif;
+    font-style:oblique;
     display:inline;
     color:#403d40;
     text-decoration:none;
-    font-size: 16px;
+    font-size: 18px;
+    font-weight: 500;
     padding:5px;
 }
 
