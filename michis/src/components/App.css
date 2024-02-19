@@ -148,6 +148,11 @@ nav button {
     transform:scale(1.1);
 }
 
+#carritoCompras:hover{
+    transform: scale(1.1);
+    font-weight: bolder;
+}
+
 #productos{
     font-style: italic;
     font-weight: 600;

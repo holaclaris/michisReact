@@ -1,0 +1,56 @@
+export default const casas= [
+    {
+        "id": 1,
+        "title": "COMFY",
+        "prize": "$40.000",
+        "description": "Casa de algodón natural afelpado con tintes ecológicos 
+        rellena de vellón siliconado hipoalergénico.",
+        "imageSrc": "images/cathouse1.jpeg",
+        "quantity":1
+    },
+    {
+        "id": 2,
+        "title": "TOTORO",
+        "prize": "$25.000",
+        "description": "Casa de fieltro natural en figura del personaje Totoro 
+        hipoalergénica con tratamiento anti-ácaros.",
+        "imageSrc": "images/cathouse2.jpeg",
+        "quantity": 1
+    },
+    {
+        "id": 3,
+        "title": "BOX",
+        "prize": "$50.000",
+        "description": "Casa minimalista de madera de bambú laqueada con futon interior
+         de algodón hipoalergénico.",
+        "imageSrc": "images/cathouse3.jpeg",
+        "quantity": 1
+    },
+    {
+        "id": 4,
+        "title": "CAT-VADER",
+        "prize": "$35.000",
+        "description": "Casa geométrica de película en fibra de papel organico 
+        tratada con tinturas naturales.",
+        "imageSrc": "images/cathouse4.jpeg",
+        "quantity": 1
+    },
+    {
+        "id": 5,
+        "title": "COUNTRY",
+        "prize": "$55.000",
+        "description": "Casa doble altura estilo tradicional en madera paraíso 
+        laqueada con futón de algodón.",
+        "imageSrc": "images/cathouse5.jpeg",
+        "quantity": 1
+    },
+    {
+        "id": 6,
+        "title": "URBAN",
+        "prize": "$60.000",
+        "description": "Casa doble altura en cemento natural con revestimiento 
+        de madera de paraíso laqueada.",
+        "imageSrc": "images/cathouse1.jpeg",
+        "quantity": 1
+    }
+]

@@ -1,0 +1,19 @@
+.prueba{
+    margin-top: 200px;
+
+}
+
+.carritoCard {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    height:70%;
+    width:55%; 
+    background-color: white;
+    border-radius: 5px;
+    filter:drop-shadow(0px 0px 5px black);
+    padding:10px;
+    margin:10px;
+    margin-right:20px;
+    overflow:hidden;
+ }
