@@ -146,11 +146,14 @@ nav button {
     background-color: #9790902f;
     font-weight:bolder;
     transform:scale(1.1);
+    border-radius: 4px;
 }
 
 #carritoCompras:hover{
     transform: scale(1.1);
     font-weight: bolder;
+    background-color: #9790902f;
+    border-radius: 4px;
 }
 
 #productos{
