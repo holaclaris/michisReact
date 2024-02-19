@@ -12,7 +12,7 @@ function Main (){
               prize='$40.000'
               />
         <Card 
-              imageSrc='images/cathousetotoro.jpeg' 
+              imageSrc='images/cathouse2.jpeg' 
               alt='casa de gato Totoro'
               title='TOTORO'
               description='Casa de fieltro natural en figura del personaje Totoro 
