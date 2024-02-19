@@ -3,12 +3,15 @@ import Header from "./Header";
 import Navbar from "./Navbar";
 import Footer from "./Footer";
 
+
 function Carrito(){
+    
+
     return(
        <div>
          <Header />
          <Navbar />
-         <div className='prueba'>Este es el carrito</div>
+         <div>Carrito de compras</div>
          <Footer />
        </div>
     )

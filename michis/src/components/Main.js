@@ -1,51 +1,32 @@
 import Card from "./Card";
+import { useState, useEffect } from 'react';
 
 function Main (){
+      const[casas, setCasas]= useState([]);
+
+      useEffect(()=>{
+          fetch('./casas.json')
+          .then(res=>res.json())
+          .then(data=>setCasas(data))
+          .catch(err=>console.error('Error al cargar los datos:', err))
+      }, [])
+
     return(
-      <main>
-        <Card 
-              imageSrc='images/cathouse1.jpeg' 
-              alt='casa de gato Comfy'
-              title='COMFY'
-              description='Casa de algodón natural afelpado con tintes 
-              ecológicos rellena de vellón siliconado hipoalergénico.' 
-              prize='$40.000'
-              />
-        <Card 
-              imageSrc='images/cathouse2.jpeg' 
-              alt='casa de gato Totoro'
-              title='TOTORO'
-              description='Casa de fieltro natural en figura del personaje Totoro 
-              hipoalergénica con tratamiento anti-ácaros.' 
-              prize='$25.000'/>
-        <Card 
-              imageSrc='images/cathouse3.jpeg' 
-              alt='casa de gato Casa box'
-              title='BOX'
-              description='Casa minimalista de madera de bambú laqueada con 
-              futon interior de algodón hipoalergénico.' 
-              prize='$50.000'/>
-        <Card 
-              imageSrc='images/cathouse4.jpg' 
-              alt='casa de gato Cat-Vader'
-              title='CAT-VADER'
-              description='Casa geométrica de película en fibra de papel organico
-              tratada con tinturas naturales.' 
-              prize='$35.000'/>
-        <Card 
-              imageSrc='images/cathouse5.jpeg' 
-              alt='casa de gato Country House'
-              title='COUNTRY'
-              description='Casa doble altura estilo tradicional en 
-              madera paraíso laqueada con futón de algodón.' 
-              prize='$55.000'/>
-        <Card 
-              imageSrc='images/cathouse6.jpeg' 
-              alt='casa de gato Urbana'
-              title='URBAN'
-              description='Casa doble altura en cemento natural con 
-              revestimiento de madera de paraíso laqueada.' 
-              prize='$60.000'/>
+
+       <main>
+
+         {casas.map((casa)=>
+         <Card
+              key={casa.id}
+              imageSrc={casa.imageSrc}
+              alt={casa.title}
+              title={casa.title}
+              description={casa.description}
+              prize={casa.prize}
+              /> 
+         )
+         }
+
       </main>
     )
 }
