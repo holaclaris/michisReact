@@ -11,7 +11,7 @@ function Form(){
         <input className="campos" type="email" name="email" placeholder="E-mail" />
 
         <div className="contenedorNewsletter">
-            <label htmlFor="newsletter">Quiero recibir novedades</label>
+            <label htmlFor="newsletter">QUIERO RECIBIR NOVEDADES</label>
             <input type="checkbox" name="newsletter" value="newsletter" />
         </div>
 

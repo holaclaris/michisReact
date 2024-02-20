@@ -4,9 +4,11 @@ import { useState, useEffect } from 'react';
 function Main (){
       const[casas, setCasas]= useState([]);
 
-      const onAddProduct=(()=>alert('Producto agregado al carrito de compras'))
+      const onAddProduct=(()=>
+      {alert('Producto agregado al carrito de compras')
+      })
 
-      useEffect(()=>{
+      useEffect(()=>{ 
           fetch('./casas.json')
           .then(res=>res.json())
           .then(data=>setCasas(data))
