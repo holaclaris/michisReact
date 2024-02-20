@@ -13,11 +13,14 @@ function Navbar(){
             </button>
             <ul className="lista">
                 <li>
-                    <Link to='/' className='links'> INICIO </Link>
+                    <Link to='/' className='links'> PRODUCTOS </Link>
                 </li>
 
                 <li>
                     <Link to='/Contact' className='links'> CONTACTO </Link>
+                </li>
+                <li>
+                    <Link to='/Adopt' className='links'> Adoptá un gatito! </Link>
                 </li>
             </ul>
             </div>

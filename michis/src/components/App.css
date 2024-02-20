@@ -139,11 +139,12 @@ nav button {
     font-family: 'Rethink Sans', sans-serif;
     font-style:oblique;
     display:inline;
-    color:#403d40;
+    color: #6d696d;
     text-decoration:none;
-    font-size: 15px;
+    font-size: 16px;
+    font-stretch: condensed;
     font-weight: 600;
-    padding:10px;
+    padding:7px;
 }
 
  
