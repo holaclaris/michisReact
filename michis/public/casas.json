@@ -9,10 +9,10 @@
     },
     {
         "id": 2,
-        "title": "TOTORO",
-        "prize": "$25.000",
-        "description": "Casa de fieltro natural en figura del personaje Totoro hipoalergénica con tratamiento anti-ácaros.",
-        "imageSrc": "images/cathouse2.jpeg",
+        "title": "OVILLO",
+        "prize": "$30.000",
+        "description": "Casa de algodón orgánico confeccionada con ovillos de colores con tratamiento anti rasguños.",
+        "imageSrc": "images/cathouse8.jpg",
         "quantity": 1
     },
     {
@@ -27,7 +27,7 @@
         "id": 4,
         "title": "CAT-VADER",
         "prize": "$35.000",
-        "description": "Casa geométrica de película en fibra de papel organico tratada con tinturas naturales.",
+        "description": "Casa geométrica de película en fibra de papel organico tratada con tinturas naturales en color oscuro.",
         "imageSrc": "images/cathouse4.jpg",
         "quantity": 1
     },
@@ -44,7 +44,31 @@
         "title": "URBAN",
         "prize": "$60.000",
         "description": "Casa doble altura en cemento natural con revestimiento de madera de paraíso laqueada.",
-        "imageSrc": "images/cathouse1.jpeg",
+        "imageSrc": "images/cathouse6.jpeg",
+        "quantity": 1
+    },
+    {
+        "id": 7,
+        "title": "DUO",
+        "prize": "$40.000",
+        "description": "Casa de diseño moderno en melamina y madera laqueada con rascador incorporado y futón de fibras naturales.",
+        "imageSrc": "./images/cathouse7.jpg",
+        "quantity":1
+    },
+    {
+        "id": 8,
+        "title": "TOTORO",
+        "prize": "$25.000",
+        "description": "Casa de fieltro natural en figura del personaje Totoro hipoalergénica con tratamiento anti-ácaros.",
+        "imageSrc": "images/cathouse2.jpeg",
+        "quantity": 1
+    },
+    {
+        "id": 9,
+        "title": "BASKET",
+        "prize": "$50.000",
+        "description": "Casa confeccionada en ratan de origen selvático con diseño de gato y futon en su interior.",
+        "imageSrc": "images/cathouse9.jpg",
         "quantity": 1
     }
 ]
