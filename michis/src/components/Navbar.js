@@ -20,7 +20,7 @@ function Navbar(){
                     <Link to='/Contact' className='links'> CONTACTO </Link>
                 </li>
                 <li>
-                    <Link to='/Adopt' className='links'> Adoptá un gatito! </Link>
+                    <Link to='/Vote' className='links'> Votá el gatito del día! </Link>
                 </li>
             </ul>
             </div>

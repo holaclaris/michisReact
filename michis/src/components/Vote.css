@@ -1,0 +1,66 @@
+.adoptTitle {
+
+    color: rgb(171, 33, 120);
+    text-align: center;
+    font-size: 20px;
+
+}
+
+.adopt-container {
+    width: 50%;
+    padding-top: 100px;
+    margin-left: 35%;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: center;
+}
+
+.gatoCard {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 15px;
+}
+
+.gatoCard img {
+    width: 100%
+}
+
+.likes {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    background-color: whitesmoke;
+}
+.corazon{
+    margin-right: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #4f4f52;
+    font-size: 15px;
+}    
+
+.nroLikes{
+    color: #4f4f52;
+    font-size: 12px;
+    font-family: serif;
+}
+
+@media (min-width:500px) {
+
+    .adoptTitle {
+        width: 100%;
+        padding-left: 0%;
+    }
+
+    .adopt-container {
+        padding-top: 28%;
+        margin-left: 25%
+    }
+
+}

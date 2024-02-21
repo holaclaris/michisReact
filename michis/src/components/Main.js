@@ -6,7 +6,7 @@ function Main (){
 
       const onAddProduct=(()=>
       {alert('Producto agregado al carrito de compras')
-      })
+    })
 
       useEffect(()=>{ 
           fetch('./casas.json')

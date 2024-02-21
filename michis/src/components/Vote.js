@@ -1,10 +1,12 @@
 import Footer from "./Footer";
 import Navbar from "./Navbar";
 import Header from "./Header";
-import './Adopt.css';
+import './Vote.css';
 import { useState, useEffect } from "react";
+import Likes from "./Likes";
 
-function Adopt(){
+
+function Vote(){
 
     const[gatos, setGatos]= useState([]);
 
@@ -20,11 +22,15 @@ function Adopt(){
         <Header />
         <Navbar />
           
-          <h2 className='adoptTitle'>Dale una oportunidad a uno de estos gatitos</h2>
+          
             <div className="adopt-container">
+            <h2 className='adoptTitle'>Votá la foto del día</h2>
                 {gatos.map((gato) =>
                     <div className="gatoCard" key={gato.id}>
                         <img src={gato.url} alt={gato.id}/>
+                        <div className="likes">
+                          <Likes />
+                        </div>
                     </div>
                 )
                 }
@@ -34,4 +40,4 @@ function Adopt(){
         </>
     )
 }
-export default Adopt;
+export default Vote;
