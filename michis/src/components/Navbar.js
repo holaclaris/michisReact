@@ -20,7 +20,7 @@ function Navbar(){
                     <Link to='/Contact' className='links'> CONTACTO </Link>
                 </li>
                 <li>
-                    <Link to='/Vote' className='links'> Votá el gatito del día! </Link>
+                    <Link to='/Vote' className='links'> Foto de la semana! </Link>
                 </li>
             </ul>
             </div>

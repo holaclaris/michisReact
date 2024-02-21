@@ -11,7 +11,7 @@ function Vote(){
     const[gatos, setGatos]= useState([]);
 
     useEffect(()=>{ 
-        fetch('./gatos.json')
+        fetch('https://api.thecatapi.com/v1/images/search?limit=10')
         .then(res=>res.json())
         .then(data=>setGatos(data))
         .catch(err=>console.error('Error al cargar los datos:', err))
@@ -24,7 +24,7 @@ function Vote(){
           
           
             <div className="adopt-container">
-            <h2 className='adoptTitle'>Votá la foto del día</h2>
+            <h2 className='adoptTitle'>Votá tu foto favorita</h2>
                 {gatos.map((gato) =>
                     <div className="gatoCard" key={gato.id}>
                         <img src={gato.url} alt={gato.id}/>

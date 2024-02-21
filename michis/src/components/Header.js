@@ -7,7 +7,7 @@ function Header(){
         </div>
         <div className="titulo">
             <h1>MICHIS</h1>
-            <h2>...Tu segundo hogar</h2>
+            <h2>Tu segundo hogar</h2>
         </div>
         <div className="whatsapp">
             <img src="./images/logowhat.png" alt="whatsapp" />
