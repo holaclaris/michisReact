@@ -40,13 +40,14 @@
     justify-content: flex-start;
     align-items: center;
     width: 92%;
-    background-color: whitesmoke;
+    background-color: #fbfbf9;
     padding: 10px;
     border-radius: 2px 2px 2px 2px;
 }
 
 .likes button{
     border: none;
+    background-color: #fbfbf9;
 }
 .corazon{
     margin-right: 6px;
@@ -78,7 +79,7 @@
 
 }
 
-@media (min-width:1000px) {
+@media (min-width:700px) {
 
     .adopt-container {
         padding-top: 20%;
