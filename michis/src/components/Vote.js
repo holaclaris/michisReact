@@ -24,7 +24,7 @@ function Vote(){
           
           
             <div className="adopt-container">
-            <h2 className='adoptTitle'>Votá tu foto favorita</h2>
+            <h2 className='adoptTitle'>Votá tu favorita</h2>
                 {gatos.map((gato) =>
                     <div className="gatoCard" key={gato.id}>
                         <img src={gato.url} alt={gato.id}/>
