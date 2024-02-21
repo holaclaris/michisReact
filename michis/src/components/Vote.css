@@ -22,10 +22,15 @@
     justify-content: center;
     align-items: center;
     margin: 15px;
+    border-radius: 2px;
+    padding: 15px;
+    filter: drop-shadow(2px 4px 6px black);
+    background: #fbfbf9;
 }
 
 .gatoCard img {
-    width: 100%
+    width: 100%;
+    border-radius: 2px;
 }
 
 .likes {
